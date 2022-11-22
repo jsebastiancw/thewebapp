@@ -95,7 +95,7 @@ app.use((req,res)=>{res.render('notfound')});
 
 let port = process.env.PORT;
 if (port == null || port == "") {
-port = 4000;
+port = 80;
 }
 app.listen(port, ()=>{
 console.log('App listening...')
